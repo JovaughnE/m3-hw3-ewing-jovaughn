@@ -1,33 +1,42 @@
-.navbar navbar-expand-lg navber-light bg-light {
-    background-color: #f8df1f;
-    text-decoration: none;
-
-
+.navbar-light {
+  background-color: #f8df1f;
 }
-
+.navbar-light ul {
+  list-style-type: none;
+}
+.navbar-light ul li {
+  display: inline;
+  padding: 2px 15px;
+}
 .footer {
-    background-color: black;
+  background-color: black;
+  border-top: #f8df1f;
+  border-width: 5%;
+  position: fixed;
+  width: 15%;
 }
-
-.logo {
-    
+.btn {
+  background-color: #f8df1f;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  border-radius: 8px;
+  text-transform: uppercase;
 }
-
 h1 {
-    font-family: Roboto;
-    font-size: 30px;
-    color: #050500;
-    font-weight: 500;
-    text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-
 h2 {
-    font-family: Roboto;
-    font-size: 30px;
-    color: #050500;
-    font-weight: 500;
+  font-family: Roboto;
+  font-size: 30px;
+  color: #050500;
+  font-weight: 500;
 }
-
 .container-fluid {
-    background-color: black;
+  background-color: black;
 }
